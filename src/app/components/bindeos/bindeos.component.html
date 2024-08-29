@@ -1,0 +1,24 @@
+
+
+<!-- binding / bindeo -->
+<!-- Desde TS al HTML -->
+<p>Me llamo {{title}}</p>
+
+<!-- Desde el HTML al TS a modo de INPUT -->
+<!-- double binding / doble bindeo [()] -->
+<input [(ngModel)]="apellido" />
+
+<p>{{apellido}}</p>
+
+<!-- binding / bindeo -->
+<!-- atributos HTML-->
+<img src="https://imgs.search.brave.com/9q6_9kNiYzg-aL30Uy3-fmAjgVDcv1y6rvkK5coc7wc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9lMDAt/ZWxtdW5kby51ZWNk/bi5lcy9hc3NldHMv/bXVsdGltZWRpYS9p/bWFnZW5lcy8yMDIz/LzA0LzEyLzE2ODEz/MTE1NTQwMDA1Lmpw/Zw" height="50px">    
+
+<img [src]="imagen" height="50px">
+
+
+<!-- Bindeo de eventos-->
+<!-- desde HTML a TS-->  
+<br><button (click)="mostrarDatos()">MOSTRAR</button>
+
+
